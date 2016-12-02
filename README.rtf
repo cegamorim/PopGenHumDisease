@@ -1,0 +1,40 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fnil\fcharset0 Calibri;}
+{\colortbl;\red255\green255\blue255;\red23\green54\blue93;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 This directory contains the codes and data to generate figures for \'93Amorim et al. - \kerning1\expnd1\expndtw5
+The population genetics of human disease: the case of recessive, lethal mutations\'94, as well as the script written by Ellen Leffler to get the sequence context of sites, based on a reference genome. The c++ code used for running simulations, can be found at Yuval Simon\'92s GitHub (see the research article for the address). \
+\
+To plot all figures, place colorVioplot.r and plot_all_figures.r in a directory, and make a subdirectory called FinalData, where the following files should be placed:\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \kerning1\expnd0\expndtw0 \CocoaLigature0 1M_eurDistrib.txt\
+2M_eurDistrib.txt\
+5M_eurDistrib.txt\
+ExAC_final373_filtered_GCIfilter.tab\
+ExAC_final385_filtered.tab.txt\
+constPopSize.txt\
+counsyl_exac_matched.tab\
+nonZeros_coverage.txt\
+sims_currAF_Eur_varU.tab\
+sims_currAF_Eur_varU_averageRate.tab.txt\
+sims_currAF_Eur_varU_averageRate_effectHets.tab.txt\
+sims_euroByGene.tab\
+sims_mutDistrib.tab\
+sims_mutDistrib_averageRate.tab.txt\
+zeros_coverage.txt\
+\
+Please note the file sims_mutDistrib.tab is only a subset of the original file, which had 1M lines. The larger (95Mb), complete file is available upon request.\
+\
+To get sequence context for specific sites, one needs a bed file with the genomic coordinates of the positions of interest and a reference genome (e.g. hg19). See details of usage in get_reference_sequence.py\
+\kerning1\expnd1\expndtw5
+\CocoaLigature1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \kerning1\expnd1\expndtw5
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs44 \cf2 \kerning1\expnd1\expndtw5
+\
+}
